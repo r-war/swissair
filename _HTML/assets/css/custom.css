@@ -1,0 +1,47 @@
+.service-section .single-item {
+    margin-bottom: 70px;
+}
+
+.section-head p {
+    margin: 10px auto;
+}
+
+.social-btn ul li {
+    padding: 0 10px;
+}
+
+.d-grid {
+    display: grid;
+}
+.grid-column-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.news-section .mm-small-box {
+    padding-top: 0px;
+}
+
+.common-style .main-menu.fixed-nav{ 
+    background: #fff;
+    top: 0;
+}
+.limo-breatcume h2 {
+    margin: 0;
+    padding:10px 0;
+}
+.main-menu.fixed-nav .menuzord.red .menuzord-menu>li.active>a, 
+.main-menu.fixed-nav .menuzord.red .menuzord-menu>li:hover>a,
+.main-menu.fixed-nav .menuzord-menu>li>a {
+    color : #111217;
+}
+
+.padding-tb200 {
+    padding: 200px 0px;
+}
+
+
+@media screen and (max-width : 680px) {
+    .grid-column-xs {
+        grid-template-columns: 1fr;
+    }
+}
