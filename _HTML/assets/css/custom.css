@@ -1,3 +1,9 @@
+.banner-section {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .service-section .single-item {
     margin-bottom: 70px;
 }
@@ -39,9 +45,40 @@
     padding: 200px 0px;
 }
 
+.background-img{
+    position: relative;
+    z-index: -1;
+    max-height: 450px;
+}
+.background-img .overlay {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: rgba(0,0,0,0.3);
+}
+
+.background-img img {
+    object-fit: cover;
+    min-height: 450px;
+}
+.background-img .background-text {
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+    color: #fff;
+}
 
 @media screen and (max-width : 680px) {
     .grid-column-xs {
         grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 991px) {
+    .menuzord .showhide em {
+        background-color: black;
     }
 }

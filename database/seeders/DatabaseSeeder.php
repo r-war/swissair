@@ -28,5 +28,11 @@ class DatabaseSeeder extends Seeder
             'email'     => 'admin@swissairtechnology.com',
             'password'  => Hash::make('admin123')
         ]);
+
+        DB::table('pages')->insert([
+            'name'          => 'About Us',
+            'slug'          => 'about-us',
+            'description'   => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, optio dicta sit voluptatem laboriosam explicabo! Veniam, magnam. Inventore, quam facere ratione libero consequuntur tenetur vel cupiditate aut eos provident totam!' 
+        ]);
     }
 }
